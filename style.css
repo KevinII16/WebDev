@@ -1,0 +1,60 @@
+body{
+	margin:0px;
+	background-color:white
+}
+main{
+	margin:20px;
+}
+h1 {
+    text-align: center;
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 10px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;  
+    padding: 5px 8px; /* Adjust the padding values as needed */
+    display: inline-block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: hsl(0, 0%, 10%);
+}
+
+
+#container {
+    background-color: pink; /*This makes the background color white*/
+    border: 5px solid purple;   /*This makes the box around the game red*/
+    height: 275px;
+    width: 750px;
+    margin: auto;
+    text-align: center;      /*This just puts the text and box in the center of the screen*/
+}
+ p{
+	color: black;
+	font-size: 20px;
+ }
+ 
+ #input{
+	 width: 100px;
+	 margin: 25px auto;
+	 
+ }
+ 
+ #btn{
+	 margin: 25px auto  auto 5px;
+	 
+ }
